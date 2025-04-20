@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <form action="" class="form" autocomplete="off">
+        <h1 class="form_H1">Register</h1>
+
+        <div class="form_infor">
+            <label for="name">Display Name</label>
+            <input type="text" placeholder="Nhập họ và tên..." id="name" class="form_input" />
+        </div>
+
+        <div class="form_infor">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Nhập email..." id="email" class="form_input" />
+        </div>
+
+        <div class="form_infor">
+            <label for="phone">Phone Number</label>
+            <input type="tel" placeholder="nhập sđt..." id="phone" class="form_input" />
+        </div>
+
+        <div class="form_infor">
+            <label for="password">Password</label>
+            <input type="password" placeholder="Nhập password" id="password" class="form_input" />
+        </div>
+
+        <div class="form_infor">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" placeholder="Nhập lại password" id="confirm-password" class="form_input" />
+        </div>
+
+        <div class="form_infor">
+            <label for="">Gender</label>
+
+            <div class="form_infor_gender">
+                <label for="male">
+                    <input type="radio" id="male" name="gender" value="male">
+                    Male
+                </label>
+
+                <label for="female">
+                    <input type="radio" id="female" name="gender" value="female">
+                    Female
+                </label>
+
+                <label for="other">
+                    <input type="radio" id="other" name="gender" value="other">
+                    Other
+                </label>
+            </div>
+
+        </div>
+
+        <div class="form_infor">
+            <label for="date">Date of Birth</label>
+            <input type="date" id="date" name="date" class="form_input">
+        </div>
+
+        <div class="form_infor">
+            <label for="address">Address</label>
+            <input type="text" id="address" placeholder="Nhập địa chỉ..." class="form_input">
+        </div>
+
+        <div class="form_infor">
+            <label class="form_infor_avatar" for="avatar">
+                <img src="/img/avt.jpg" alt="avatar">
+                <input type="file" id="avatar" accept="image/*">
+            </label>
+        </div>
+
+        <div class="form_infor_checkbox">
+            <label for="subscribe-to-newsletter">
+                <input type="checkbox" id="subscribe-to-newsletter">
+                Subscribe to Newsletter
+            </label>
+
+            <label for="receive-promotional-emails">
+                <input type="checkbox" id="receive-promotional-emails">
+                Receive Promotional Emails
+            </label>
+
+            <label for="get-product-updates">
+                <input type="checkbox" id="get-product-updates">
+                Get Product Updates
+            </label>
+        </div>
+
+        <button class="btn">Đăng ký</button>
+
+
+    </form>
+</body>
+</html>
