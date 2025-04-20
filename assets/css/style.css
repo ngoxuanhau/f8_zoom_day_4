@@ -66,6 +66,50 @@ body {
 }
 
 
+/*CSS bai 2*/
+
+.container_2 {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1132px;
+}
+
+.menu {
+    background-color: #3E5CCA;
+}
+
+.menu_list {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu_item {
+    line-height: 74px;
+    text-align: center;
+    min-width: 141.5px;
+    cursor: pointer;
+}
+.menu_item a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    line-height: 74px;
+    height: 74px;
+    display: inline;
+}
+
+.menu_item:hover {
+    background-color: white;
+}
+
+.menu_item a:hover {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+
+
 
 
 
